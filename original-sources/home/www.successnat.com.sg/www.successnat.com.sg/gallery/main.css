@@ -1,0 +1,72 @@
+#main {
+	width:758px;
+	margin:0 auto;
+}
+
+#images {
+	display:none;	
+}
+
+.panel {
+}
+
+ul.exposureThumbs {
+	background:#111;
+	border-right:none;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+ul.exposureThumbs li {
+	margin:0 0 0 0;
+	padding:0;
+	text-align:center;
+	display:none;
+}
+
+ul.exposureThumbs li img {
+	cursor:pointer;
+	border:none;
+}
+
+ul.exposureThumbs li.last {
+	margin:0;	
+}
+
+.exposureTarget {
+	width:605px;
+	height:400px;
+	background-color:#E5E5E5;	
+	background-image:url(res/loader.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden; 
+	float:left;
+}
+
+.exposureWrapper {
+	position:absolute; 
+	top:0; 
+	left:0;
+}
+
+.exposureWrapper img {
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+
+ul.exposureThumbs li {
+	width:153px;
+	height:100px;
+	padding:0;
+	float:left;
+	position:relative;
+}

@@ -1,0 +1,1 @@
+chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/build/staticConstants.build.js
